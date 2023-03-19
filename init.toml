@@ -33,6 +33,9 @@
 
 	vim_help_language = "cn"
 
+	# 文件树 NerdTree 位置放到左边
+  filetree_direction = 'left'
+
 # Enable autocomplete layer
 [[layers]]
 	name = 'autocomplete'
