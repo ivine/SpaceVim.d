@@ -6,9 +6,6 @@
 # License: GPLv3
 #=============================================================================
 
-[[custom_plugins]]
-  name = "dracula/vim"
-
 # All SpaceVim option below [option] section
 [options]
 	# set spacevim theme. by default colorscheme layer is not loaded,
@@ -102,3 +99,32 @@
 
 [[layers]]
   name = "VersionControl"
+
+# ----- 插件: 主题 ----- #
+[[custom_plugins]]
+  name = "dracula/vim"
+# ----- 插件: 主题 ----- #
+
+# ----- 插件: lsp https://github.com/natebosch/vim-lsc ----- #
+[[custom_plugins]]
+  name = "natebosch/vim-lsc"
+	merged = false
+# ----- 插件: dart lsp https://github.com/natebosch/vim-lsc ----- #
+
+# ----- 插件: dart 语法高亮/检测等 https://github.com/dart-lang/dart-vim-plugin ----- #
+[[custom_plugins]]
+  name = "dart-lang/dart-vim-plugin"
+	merged = false
+# ----- 插件: dart 语法高亮/检测等 https://github.com/dart-lang/dart-vim-plugin ----- #
+
+# ----- 插件: dart lsp https://github.com/natebosch/vim-lsc-dart ----- #
+[[custom_plugins]]
+  name = "natebosch/vim-lsc-dart"
+	merged = false
+# ----- 插件: dart lsp https://github.com/natebosch/vim-lsc-dart ----- #
+
+# ----- 插件: dart hot-reload-on-save https://github.com/thosakwe/vim-flutter ----- #
+[[custom_plugins]]
+	repo = "thosakwe/vim-flutter"
+	merged = false
+# ----- 插件: dart hot-reload-on-save https://github.com/thosakwe/vim-flutter ----- #
