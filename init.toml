@@ -11,6 +11,7 @@
 	# set spacevim theme. by default colorscheme layer is not loaded,
 	# if you want to use more colorscheme, please load the colorscheme
 	# layer
+	#colorscheme = "OceanicNext"
 	colorscheme = "dracula"
 	colorscheme_bg = "dark"
 	# Disable guicolors in basic mode, many terminal do not support 24bit
@@ -24,14 +25,13 @@
 	enable_tabline_filetype_icon = true
 	enable_statusline_mode = false
 
+  # ----- 个人配置 ----- #
 	# Tab 键 size
 	default_indent = 2
 	expand_tab = false
-
 	vim_help_language = "cn"
-
-	# 文件树 NerdTree 位置放到左边
-  filetree_direction = 'left'
+  filetree_direction = 'left' # 文件树 NerdTree 位置放到左边
+	lineNumber = 120
 
 # Enable autocomplete layer
 [[layers]]
@@ -77,6 +77,7 @@
 
 [[layers]]
 	name = 'git'
+	git_plugin = 'fugitive'
 
 [[layers]]
   name = "lsp"
@@ -101,8 +102,8 @@
   name = "VersionControl"
 
 # ----- 插件: 主题 ----- #
-[[custom_plugins]]
-  name = "dracula/vim"
+[[layers]]
+  name = "colorscheme"
 # ----- 插件: 主题 ----- #
 
 # ----- 插件: lsp https://github.com/natebosch/vim-lsc ----- #
